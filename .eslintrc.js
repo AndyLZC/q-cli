@@ -1,8 +1,5 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    sourceType: 'module',
-  },
   plugins: ['@typescript-eslint/eslint-plugin', 'prettier'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
@@ -17,5 +14,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-non-null-asserted-optional-chain': 0,
     '@typescript-eslint/no-inferrable-types': 0,
+    '@typescript-eslint/no-var-requires': 0,
   },
 }
