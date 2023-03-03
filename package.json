@@ -1,11 +1,11 @@
 {
-  "name": "q-cli",
+  "name": "sug-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "拉取 vue3 模板的脚手架工具",
   "main": "./dist",
   "bin": {
-    "q-cli": "./bin/q-cli.js",
-    "q-cli-dev": "./bin/q-cli-dev.js"
+    "sug-cli": "./bin/sug-cli.js",
+    "sug-cli-dev": "./bin/sug-cli-dev.js"
   },
   "scripts": {
     "lint": "eslint --fix src --ext .ts && prettier --write \"src/**/*.ts\"",
